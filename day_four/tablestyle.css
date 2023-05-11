@@ -9,7 +9,14 @@ table {
     border: 5px solid green;
 }
 
-td, th {
+thead, th {
+    width: auto;
+    height: auto;
+    border: 1px solid red;
+
+}
+
+td {
     border: 1px solid red;
 
 }
@@ -18,3 +25,11 @@ td:hover {
     background-color: lightcoral;
     color:white;
 }
+
+tfoot {
+    width: auto;
+    height: auto;
+    border: 1px solid red;
+} 
+
+

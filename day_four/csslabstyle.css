@@ -1,0 +1,36 @@
+li:first-child {
+    font-size: 20px;
+    color: red;
+    border: 1px solid blue;
+    
+}
+
+li:first-child > :hover {
+    color: green;
+
+}
+
+li:nth-child(16) {
+    font-size: 30px;
+    color: purple;
+    border: 1px solid grey;
+}
+
+li:nth-child(16) > :hover {
+    color:red;
+}
+
+li:last-child {
+    font-size: 10px;
+    color: silver;
+    border: 1px solid grey;
+
+}
+
+li:last-child > :hover {
+    color:grey;
+}
+
+
+
+
