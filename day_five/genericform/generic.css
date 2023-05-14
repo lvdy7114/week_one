@@ -1,0 +1,63 @@
+form {
+    border: none;
+    height: 425px;
+    width: 375px;
+    text-align: center;
+    color: white;
+    margin-left: 200px;
+    margin-top: 120px;
+    background-color: rgba(231, 37, 37, 0.795);
+  
+  }
+
+  input {
+    background-color: rgba(158, 44, 68, 0.719);
+    text-align: left;
+    color: white;
+    width: 350px;
+    height: 25px;
+    border: none;
+    
+  }
+
+  ::placeholder { 
+    color: white;
+    opacity: 1; 
+    text-align: left;
+    
+  }
+
+  ::-webkit-input-placeholder {
+    text-align: left;
+  }
+
+  select {
+    background-color: rgba(158, 44, 68, 0.719);
+    color: white;
+    width: 350px;
+    height: 25px;
+    border: none;
+
+  }
+
+  textarea {
+    background-color: rgba(158, 44, 68, 0.719);
+    text-align: left;
+    color: white;
+    width: 350px;
+    border: none;
+
+  }
+
+  h1,h3,h6 {
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+
+  button {
+    background-color: white;
+    color: rgba(158, 44, 68, 0.719);
+    width: 350px;
+    height: 40px;
+    border: none;
+  }

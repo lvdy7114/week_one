@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <style>
+        form {
+          border: 1px solid black;
+          height: auto;
+          width: 300px;
+          text-align: center;
+          margin-left: 200px;
+          margin-top: 120px;
+          border-radius: 3rem;
+        }
+      </style>
+</head>
+<body>
+    <form action="#">
+        <h1>Register Page</h1>
+        <br />
+
+        <label for="firstname">First Name: </label>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="Enter Your First Name"
+        />
+        <br>
+        <label for="lastname">Last Name: </label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="Enter Your Last Name"
+        />
+        <br>
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Your Email"
+        />
+        <br>
+        <label for="password">Password: </label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter Your Password"
+      />
+      <br>
+      <label for="confirmpassword">Confirm: </label>
+      <input
+        type="confirmpassword"
+        name="confirmpassword"
+        id="confirmpassword"
+        placeholder="Confirm Your Password"
+      />
+      <br>
+      <label for="gender">Gender: </label>
+        <label for="Female">Female</label>
+            <input type="radio" name="radio" id="female" />
+        </label>
+        <label for="Male">Male</label>
+            <input type="radio" name="radio" id="male" />
+        </label>
+        <br>
+        <label for="dateofbirth">Date of Birth:</label>
+        <input type="date" name="dateofbirth" id="dateofbirth" />
+        <br>
+        <label for="youlikesports">You like: sports</label><input type="checkbox" name="youlikesports" id="youlikesports" />
+        <label for="youliketoeat">to eat</label><input type="checkbox" name="youliketoeat" id="youliketoeat" />
+        <label for="youliketosleep">to sleep</label><input type="checkbox" name="youliketosleep" id="youliketosleep" />
+        <br>
+        <button type="submit">Register</button>
+        <br>
+        <br>
+    
+    
+</body>
+</html>

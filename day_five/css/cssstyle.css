@@ -1,0 +1,42 @@
+form {
+    border: 1px solid black;
+    height: 400px;
+    width: 250px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 120px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    background-color: rgba(223, 214, 214, 0.651);
+  
+  }
+
+  input {
+    background-color: rgba(175, 178, 179, 0.308);
+    text-align: center;
+    width: 170px;
+    height: 25px;
+    border: none;
+  }
+
+  h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+  }
+
+  button {
+    background-color: aqua;
+    color: white;
+    width: 175px;
+    height: 30px;
+    border: none;
+  }
+
+  a {
+    color:goldenrod;
+  }
+
+  img {
+    height: 50px;
+    width: 50px;
+  
+  }
